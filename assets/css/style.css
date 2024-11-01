@@ -5,3 +5,122 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+nav{
+    position: relative;
+}
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 10px;
+    top: 0;
+}
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.navbar-items li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar-items li a:hover{
+    color: darkgray;
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: #1e7073;
+    color: black;
+    border-radius: 15px;
+}
+.default-btn:hover{
+    background-color: #1c3c3c;
+}
+.navbar-items .btn a{
+    color: black;
+    font-weight: 800;
+}
+.navbar-items .btn a:hover{
+    color: white;
+}
+.background{
+    background-image: url(../img/mainbanner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.background h1{
+    font-size: 64px;
+    font-weight: 900;
+}
+.background h2{
+    font-size: 32px;
+    font-weight: 300;
+}
+.service-container{
+    padding: 5em 0;
+    background-color: black;
+}
+.service-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    color: white;
+}
+.servide-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fa-solid{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.fa-shield-halved{
+    color: #01C401
+}
+.fa-rocket{
+    color: #ED4F4F
+}
+.fa-comments{
+    color: #EDC14F
+}
+.title-comments{
+    color: #EDC14F;
+}
+.title-rocket{
+    color: #ED4F4F;
+}
+.title-escudo{
+    color: #01C401;
+}
+.caixa{
+    background-color: #1c3c3c;
+    border-radius: 10px;
+}
